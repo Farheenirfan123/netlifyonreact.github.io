@@ -1,0 +1,166 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+nav{
+  position: sticky;
+  top: 0px;
+}
+.img-1{
+    margin: 10px ;
+    height: 40px;
+    width: 140px;
+    
+}
+.container-xxl{
+  display: block;
+  margin: auto;
+  background-image:url("https://www.netlify.com/images/home/composable-platform-stack-shells.svg") , linear-gradient(rgba(9, 9, 31, 0.87), #0404ec  );
+}
+@media screen and (max-width : 326px) 
+{
+    .btn{
+        margin-top: 9px;
+    }
+}
+iframe{
+  box-shadow: 1px 1px 20px 6px blueviolet;
+}
+@media screen and (max-width:326px) {
+    iframe{
+        width: 300px;
+    }
+    
+}
+@media screen and (min-width:326px) {
+  iframe{
+        width: 300px;
+    }
+    
+}
+@media screen and (min-width:479px) {
+  iframe{
+        width: 350px;
+    }
+    
+}
+@media screen and (min-width:690px) {
+  iframe{
+        width: 450px;
+    }
+    
+}
+@media screen and (min-width:890px) {
+  iframe{
+        width: 500px;
+    }
+    
+}
+
+
+
+@media screen and (max-width : 326px) 
+{
+    .first-btn{
+        margin-top: 9px;
+}
+}
+h1{
+  font-size: 3rem;
+}
+.card{
+    width : 400px;
+    border-radius: 30px;
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+}
+.footer-section{
+  background-color: #202096;
+}
+
+a:hover{
+  text-decoration: dashed;
+}
+@media screen and (max-width:390px) {
+  .line{
+    font-size: 12px;
+  }
+  
+}
+@media screen and (max-width:390px) {
+  .heading{
+    font-size: 40px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width:390px) {
+  .heading-2{
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  
+}
+@media screen and (max-width:390px) {
+  .links {
+   font-size: 14px;
+  }
+  
+}
+@media screen and (max-width:390px) {
+  .img-3{
+width: 48px;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .links{
+  text-align: left;
+  font-size: 15px;
+  font-size: small;
+  }
+  
+}
+@media screen and (max-width:390px) {
+  .demo{
+   font-size: 22px;
+    
+  }
+  
+}
+@media screen and (max-width:390px){
+  .img-link{
+    width: 100px;
+  }
+}
+@media screen and (min-width:116px){
+  .img-link{
+    width: 100px;
+  }
+}
+@media screen and (max-width:315px){
+  .img-link-2{
+    width: 29px;
+  
+  }
+}
+@media screen and (max-width:390px){
+  .img-link-3{
+    width: 50px;
+  }
+}
+
+input{
+  width: 270px;
+  height: 36px;
+  border-radius: 3px;
+}
+@media screen and (max-width:390px){
+  input{
+    margin-top: 8px;
+  }
+}
